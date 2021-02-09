@@ -3,7 +3,7 @@
 int main()
 {
     int val=0;
-
+    printf("\n=======================================");
     printf("\n ASCII Table");
     while(val<128)
     {
@@ -11,6 +11,7 @@ int main()
         val++;
     }
 
+    printf("\n=======================================");
     return 0;
 
 }
