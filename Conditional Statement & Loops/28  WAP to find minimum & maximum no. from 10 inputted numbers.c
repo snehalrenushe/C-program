@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 
 int main()
 {
@@ -26,5 +27,7 @@ int main()
     printf("\===================================================");
     printf("\n The Maximum Number is %d \n The Minimum Number is %d \n",Max,Min);
     printf("\===================================================");
+    getch();
     return 0;
+
 }
