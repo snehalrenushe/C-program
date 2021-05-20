@@ -4,7 +4,7 @@ int main()
 {
   int No1,y,cnt=0;
   up:
-  printf("\n enter two no to check its prime or not => ");
+  printf("\n Enter Number to check its prime or not => ");
   scanf("%d",&No1);
    if(No1==1||No1==0)
   {
