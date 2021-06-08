@@ -17,7 +17,7 @@ int main()
 
     printf("\n=========================================================\n");
 
-    printf("\n Bitwise AND Between =>>  %d & %d = %d \n",No1,No2,Res);
+    printf("\n Bitwise AND Between =>  %d & %d = %d \n",No1,No2,Res);
 
     printf("\n=========================================================\n");
 
