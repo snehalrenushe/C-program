@@ -8,7 +8,7 @@ int main()
     int B=10 ;
     int C=0 ;
 
-    // Addition
+    // Addition Operator
 
     C = A + B ;
 
@@ -16,7 +16,7 @@ int main()
 
     getch();
 
-    // Subtraction
+    // Subtraction Operator
 
     C = A - B ;
 
@@ -24,7 +24,7 @@ int main()
 
     getch();
 
-    // Multiplication
+    // Multiplication Operator
 
     C = A * B ;
 
@@ -32,33 +32,33 @@ int main()
 
     getch();
 
-    // Division
+    // Division Operator
 
-    C = B / A ;
+    C = A / B ;
 
-    printf("\n Division Of %d / %d is = %d \n",B,A,C);
-
-    getch();
-
-    // Modulus
-
-    C = B % A ;
-
-    printf("\n Modulus Of %d %% %d is = %d \n",B,A,C);
+    printf("\n Division Of %d / %d is = %d \n",A,B,C);
 
     getch();
 
-    // Increment
+    // Modulus Operator
 
-    C = A++ ;
+    C = A % B ;
+
+    printf("\n Modulus Of %d %% %d is = %d \n",A,B,C);
+
+    getch();
+
+    // Increment Operator
+
+    C = ++A ;            // Pre-Increment
 
     printf("\n Increment is = %d \n",C);
 
     getch();
 
-    // Decrement
+    // Decrement Operator
 
-    C = A-- ;
+    C = --A ;           // Pre-Decrement
 
     printf("\n Decrement is = %d \n",C);
 
